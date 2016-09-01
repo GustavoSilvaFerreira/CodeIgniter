@@ -35,7 +35,7 @@ $config['base_url'] = 'https://php-code-igniter-gustavoferreira.c9users.io/agend
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -283,7 +283,7 @@ $config['error_views_path'] = '';
 | application/cache/ directory.  Use a full server path with trailing slash.
 |
 */
-$config['cache_path'] = '';
+$config['cache_path'] = 'application/cache/';
 
 /*
 |--------------------------------------------------------------------------
@@ -369,7 +369,7 @@ $config['encryption_key'] = '2378_&%78!%!husa@32787584/$*';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'GSF_Agenda';
-$config['sess_expiration'] = 7200;
+$config['sess_expiration'] = 600;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
